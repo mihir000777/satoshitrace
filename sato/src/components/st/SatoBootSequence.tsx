@@ -159,7 +159,7 @@ export function SatoBootSequence({ onComplete }: SatoBootProps) {
   return (
     <div
       ref={containerRef}
-      className="crt-boot-screen fixed inset-0 z-50 flex flex-col justify-between bg-[#0A0E14] p-6 text-[#E6EDF3] font-mono select-none"
+      className="crt-boot-screen fixed inset-0 z-[9999] w-screen h-screen flex flex-col justify-between bg-[#0A0E14] p-6 text-[#E6EDF3] font-mono select-none"
     >
       {/* Top Telemetry Header */}
       <div className="flex items-center justify-between border-b border-[#1C232E] pb-3 text-xs">
